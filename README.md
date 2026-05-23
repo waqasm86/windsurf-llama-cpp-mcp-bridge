@@ -1,6 +1,6 @@
 # Local GGUF MCP Server
 
-A FastAPI-based server that provides an MCP (Model Control Protocol) interface for local GGUF models.
+This is a Windsurf MCP stdio bridge that lets Windsurf call a local llama.cpp llama-server GGUF model through a complete tool.
 
 ## Prerequisites
 
