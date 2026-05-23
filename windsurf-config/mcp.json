@@ -3,17 +3,17 @@
     "local-llama-stdio": {
       "command": "/usr/bin/env",
       "args": [
-        "PYTHONUNBUFFERED=1",
         "python3.11",
         "-u",
-        "/media/waqasm86/External1/Project-Python/Project-Windsurf/windsurf-local-llm-mcp/mcp-server/server_stdio.py"
+        "/ABSOLUTE/PATH/TO/windsurf-llama-cpp-mcp-bridge/mcp-server/server_stdio.py"
       ],
-      "autoRestart": true,
-      "disabled": false,
       "env": {
+        "PYTHONUNBUFFERED": "1",
         "LLAMA_COMPLETION_URL": "http://127.0.0.1:8090/completion",
         "LLAMA_TIMEOUT_S": "120"
-      }
+      },
+      "autoRestart": true,
+      "disabled": false
     }
   }
 }
